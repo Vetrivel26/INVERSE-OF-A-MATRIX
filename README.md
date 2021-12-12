@@ -11,7 +11,17 @@ To write a python program to find the inverse of a matrix
 ### Step 4: 
 
 ## Program:
+~~~
+#Program to find the inverse of a matrix.
+#Developed by:VETRIVEL.S
+#RegisterNumber:21000733
+import numpy as np
+A=([[2,1,1],[1,1,1],[1,-1,2]])
+b=np.linalg.inv(A)
+print(b)
+~~~
 ## Output:
+![git log](vetri9.png)
 ## Result:
 Thus the inverse of given matrix is successfully solved using python program
 
